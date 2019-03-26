@@ -7,7 +7,7 @@ Mobile to Desktop Thames River Anglers Association Website
 This is our starting file for responsive page for TRAA 
 this github repo includes homepage build we created 
 
-##layout of the site for mobile 
+## layout of the site for mobile 
 
 inside main nav you can find things such s top contact to logo and home page features 
 
