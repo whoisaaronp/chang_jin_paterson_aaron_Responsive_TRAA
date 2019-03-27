@@ -49,6 +49,10 @@ body
   margin: 10px;
 }
 
+.hero, .column1, .column2, .column3, .column4, .column5, .column6
+{
+	height: 400px;
+}
 
 /* logo at mobile */
 .logo
