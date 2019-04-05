@@ -149,7 +149,7 @@ a
 	display: none;
 }
 
- /* button styling anchor */
+ /* Footer button styling */
 
  #buttonNow
  {
@@ -169,6 +169,50 @@ a
  {
     background-color: SlateBlue;
  }
+
+/* Universal button styling */
+.button{
+	display: block;
+    position: relative;
+	width: 200px;
+    background-color: purple;
+    padding: 21px 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.button:hover
+{
+	display: block;
+    position: relative;
+	width: 200px;
+    background-color: ;
+    padding: 21px 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+
+	.projectsLibrary
+	{
+		margin-bottom: 30px;
+	}
+	
+	.projectImage
+	{
+		color: #fff;
+		min-width: 50%;
+		height: 400px;
+		background-color: Slateblue;
+		text-align: center; 
+		margin-bottom: 20px;
+		
+	}
+
 
 /* Mobile Footer */
 .footerCon
@@ -260,7 +304,7 @@ a
 		cursor: pointer;
 	}
 
-	/* hide the menue a standard */
+	/* hide the menu a standard */
 	ul li ul 
 	{
 		width: 170px;
@@ -288,6 +332,7 @@ a
 		width: 100%;
 	}
 
+/* end menu  drop-down */
 	.column1
 	{ 
 		background-color: purple;
@@ -336,6 +381,30 @@ a
 		background-color: purple;
 		width: 50%;
 	}
+	/* Project section structure */
+	.projectsContainer
+	{	
+		display: flex;
+		flex-direction: column;
+
+	}
+	
+	.projectsLibrary
+	{
+		display: flex;
+		flex-direction: row;
+
+	}
+	
+	.projectImage
+	{
+		background-color: purple;
+		min-width: 40%;
+		color: #fff;
+		margin-right: 40px;
+	}
+
+	/* About section stucture */
 
 
 
